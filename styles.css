@@ -38,6 +38,8 @@ body {
     padding: 8px;
     border: 1px solid lightblue;
     border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .user-input input:focus {
@@ -54,6 +56,9 @@ body {
     background-color: lightgray;
     border: 1px solid lightgray;
     border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: -2px;
 }
 
 .user-input button:hover {
@@ -69,6 +74,7 @@ body {
 
 .item {
     display: flex;
+    background-color: white;
     justify-content: space-between;
     width: 100%;
     height: auto;
